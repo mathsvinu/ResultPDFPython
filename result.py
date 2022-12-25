@@ -238,8 +238,13 @@ for roll in range(0,int((sh.max_row-1)/4)):
     pdf.cell(150, 10, txt = "KUMAR ASHUTOSH INSTITUTION (MAIN) BOYS",border=1,align = "C")
     pdf.ln(15)
     pdf.set_font("helvetica", size = 10)
+    pdf.set_font(style="I")
     pdf.cell(150, 2, txt = "NAME: "+str(sh.cell(row=nametag,column=2).value) + "                     Roll No." + str(roll+1),align = "C")
-    
+    pdf.ln(10)
+    pdf.set_font("helvetica", size = 8)
+    pdf.cell(150, 2, txt = "ACADEMIC SESSION: 2023",align = "C")
+    pdf.set_draw_color(r=0, g=51, b=102)
+    pdf.line(x1=10, y1=30, x2=169, y2=30)
     pdf.set_font_size(8)
     pdf.write_html(
         f"""<table border="1"><thead><tr>
