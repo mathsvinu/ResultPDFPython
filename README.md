@@ -23,3 +23,5 @@ LScience      45              41              61              10            71  
 History       38              41              61              10            71              150           75.0        B+
 Geography     39              41              61              10            71              151           75.5        B+
 Computer      40              41              61              10            71              152           76.0        B+
+
+The pdf files along with the excel sheet is present in the repository.
