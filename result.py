@@ -291,6 +291,13 @@ for roll in range(0,int((sh.max_row-1)/4)):
         pdf.cell(200,10, txt = stringRow, ln = 2, align = 'L')
         pdf.cell(200, 10, txt = "-----------------------------------------------------------------------------",ln = 2, align = 'C')
     #end of j-for loop    """
+    pdf.ln(4)
+    pdf.set_font("helvetica", size = 8)
+    pdf.cell(150,2, txt="   Attendance ________________                                                   Percentage of Marks ____________________",align="L")
+    pdf.ln(8)
+    pdf.cell(150, 2, txt = "Teacher's Signature ________________                                       Signature of HOI ___________________",align = "L")
+    pdf.ln(8)
+    pdf.cell(150, 2, txt = "Remarks  _________________________________                Guardian's Signature ___________________",align = "L")
     pdf.output("Roll No.{0}.pdf".format(roll+1))
     nametag +=4
     print() # END OF ROLL - LOOP
