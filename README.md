@@ -10,3 +10,16 @@ The following program is to generate PDF files for all students of a certain cla
   > less than 25 ------ D
 
 If a student has 3 or more D's out of eight subjects, he/she will be detained otherwise he/she will be promoted.
+
+The format of the result is shown below: ( must be in a Table)
+                      SCHOOL NAME
+NAME:       P Banerjee                            Roll No.4
+Subjects    First Term    Second Term     Annual Written    Project     Annual Total    Grand Total     Average     Grades
+Bengali       25              41              61              10            71              137           68.5        B
+English       29              41              61              10            71              141           70.5        B+
+Math          0               50              0               0             0               50            25.0        C
+PScience      35              41              61              10            71              147           73.5        B+
+LScience      45              41              61              10            71              157           78.5        B+
+History       38              41              61              10            71              150           75.0        B+
+Geography     39              41              61              10            71              151           75.5        B+
+Computer      40              41              61              10            71              152           76.0        B+
