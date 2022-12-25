@@ -24,4 +24,8 @@ History       38              41              61              10            71  
 Geography     39              41              61              10            71              151           75.5        B+
 Computer      40              41              61              10            71              152           76.0        B+
 
+If a student has 3 or more D's out of eight subjects, he/she will be detained otherwise he/she will be promoted.
+
+Note the total marks for the full academic session will be the sum of all the average marks in all subjects ( except Computer) and the percentage will be calculated out of 700.
+
 The pdf files along with the excel sheet is present in the repository.
